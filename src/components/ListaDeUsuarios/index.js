@@ -10,7 +10,7 @@ function ListaDeUsuarios() {
     useEffect(() => {
         const carregarUsuarios = async () => {
             try {
-                const response = await axios.get('https://frontend-senai-derickk0.onrender.com/usuarios')
+                const response = await axios.get('https://backend-senai-derickk0.onrender.com/usuarios')
                 setUsuarios(response.data)
             } catch (error) {
                 alert('Erro ao buscar usuários: ', error)
