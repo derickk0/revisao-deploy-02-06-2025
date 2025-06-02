@@ -1,0 +1,64 @@
+/* src\pages\Lista\styles.css */
+
+.container-listaUsuarios {
+    background: rgba(255, 255, 255, 0.945);
+    padding: 40px 20px;
+    width: 400px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.pagina-lista-usuarios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 125px;
+}
+  
+.pagina-lista-usuarios .container-listaUsuarios {
+    background-color: rgba(255, 255, 255, 0.945);
+    box-sizing: border-box;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    overflow-y: auto;
+    text-align: center;
+    margin-top: 0px;
+}
+  
+.pagina-lista-usuarios .container-listaUsuarios h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: #1c1c1c;
+}
+  
+.pagina-lista-usuarios .container-listaUsuarios .link-voltar {
+    display: block;
+    margin-top: 25px;
+    font-size: 16px;
+    text-align: center;
+    color: #f4f4f4; 
+    text-decoration: none;
+    width: 80%;
+}
+  
+.pagina-lista-usuarios .container-listaUsuarios .link-voltar:hover {
+    text-decoration: none;
+}
+
+.pagina-lista-usuarios .background .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
